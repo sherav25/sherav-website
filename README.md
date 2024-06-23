@@ -26,9 +26,9 @@ By the end of this workshop, you will have a live portfolio website that you can
 
 ### Step 2: Forking the Starter Project
 
-#### Search for the Portfolio Repository
-1. In the GitHub search bar, type the name of the starter portfolio repository (provided by the instructor).
-2. Click on the repository name in the search results to open it.
+#### Search for the Workshop Project
+
+1. Visit [Workshop Project](https://github.com/fourthofaugust/interns-workshop-2024)
 
 #### Fork the Repository
 1. Click on the "Fork" button in the top right corner of the repository page.
@@ -88,61 +88,3 @@ By the end of this workshop, you will have a live portfolio website that you can
 - **Media:** Add images and links to your projects or social media profiles.
 - **Responsive Design:** Ensure the site looks good on mobile devices by learning basic responsive design principles.
 
----
-
-## Example Portfolio Repository
-
-You can create a starter portfolio repository with the following structure:
-
-### index.html
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>My Portfolio</h1>
-    </header>
-    <section>
-        <h2>About Me</h2>
-        <p>Hello! I am a high school student learning web development.</p>
-    </section>
-    <section>
-        <h2>Projects</h2>
-        <ul>
-            <li>Project 1</li>
-            <li>Project 2</li>
-        </ul>
-    </section>
-    <footer>
-        <p>Contact: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-    </footer>
-</body>
-</html>
-```
-
-```css
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 1em 0;
-}
-section {
-    margin: 20px;
-}
-footer {
-    background-color: #f1f1f1;
-    padding: 1em 0;
-}
-```
