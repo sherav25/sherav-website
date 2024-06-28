@@ -3,55 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <style>
-        body {
-            font-family: Garamond, serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background-color: #ffabc8;
-            color: white;
-            padding: 1em 0;
-        }
-        section {
-            margin: 20px;
-        }
-        footer {
-            background-color: #f1f1f1;
-            padding: 1em 0;
-        }
-        button {
-            background-color: #e0437a;
-            margin: 20px;
-            font-size: 16px;
-            cursor: pointer;
-            color: white;
-        }
-    </style>
+    <title>My Art Gallery</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Shera Vijay's Portfolio</h1>
-        <a href="index.html"><button>Home</button>
-        <a href="third.html"><button>Artworks</button>
-</a>
+        <h1>My Art Gallery</h1>
     </header>
-    <section>
-        <h1>Miraclesoft Internship Projects</h1>
-        <ul>
-            <li>HTML Traffic light</li>
-            <img src="TrafficLight.pdf.png">
-            <li>HTML registration form</li>
-            <li>Website development</li>
-            <li>Tableau project</li>
-            <li>Project management in Jira</li>
-        </ul>
-    </section>
+
+    <main>
+        <section class="artwork">
+            <h2>Artwork Title</h2>
+            <img src="artwork1.jpg" alt="Artwork 1">
+            <p>Description of the artwork. This piece is inspired by...</p>
+            <p class="price">$100</p>
+        </section>
+        
+        <section class="artwork">
+            <h2>Artwork Title</h2>
+            <img src="artwork2.jpg" alt="Artwork 2">
+            <p>Description of the artwork. This piece is inspired by...</p>
+            <p class="price">$150</p>
+        </section>
+        
+        <!-- Add more artwork sections as needed -->
+    </main>
+
     <footer>
-        <p>Contact: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        <p>&copy; 2024 My Art Gallery. All rights reserved.</p>
     </footer>
 </body>
 </html>
